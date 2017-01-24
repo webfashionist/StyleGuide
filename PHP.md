@@ -140,6 +140,12 @@ class SomeClass {
 ```
 
 
+## SQL vs. PHP
+
+* SQL must be used instead of complex PHP statements whenever possible. This allows better performance and less calculations on the PHP side.
+* While `mysqli` and `PDO` are two possible ways to connect to a database, the recommended method is using `PDO` with prepared statements.
+
+
 ## Security
 
 * `eval()`, `exec()`, `shell_exec()` must be avoided, if possible.

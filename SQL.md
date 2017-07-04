@@ -34,6 +34,15 @@ It's semantically equivalent to a `GROUP BY`  where all returned fields are in t
 
 ### Using MySQL
 
-If the following error occurs in MySQL, then `ONLY_FULL_GROUP_BY` is activated in the current SQL mode. WAMP allows to quickly change the SQL mode by clicking on the tray icon > MySQL > MySQL settings > sql-mode.
+If the following error occurs in MySQL, then `ONLY_FULL_GROUP_BY` is activated in the current SQL mode. 
 
 `Expression of SELECT list is not in GROUP BY clause and contains nonaggregated column which is not functionally dependent on columns in GROUP BY clause.`
+
+- WAMP allows to quickly change the SQL mode by clicking on the tray icon > MySQL > MySQL settings > sql-mode.
+- Changing/adding `sql_mode` after the `[mysqld]` line in the configuration file of MySQL does the same. Files may be located at (depending on your server and settings):
+    - `mysql/bin/my.ini`
+    - `mysql/bin/my.cnf`
+    - `mysql/my.cnf`
+    - `mysql/my.ini`
+
+Restart the server to update the settings.

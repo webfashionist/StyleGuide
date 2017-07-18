@@ -1,5 +1,11 @@
 # SQL Guideline
 
+## Usage of SQL inside PHP (or any other language)
+
+Do not concatenate a single SQL query, always use a single string for the whole query.
+Long and/or complex queries must include line breaks to make them more readable.
+
+
 ## `GROUP BY` vs `DISTINCT`
 
 ### Using something else than MySQL

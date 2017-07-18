@@ -14,3 +14,10 @@ if(!window.location.origin) {
     window.location.origin = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
 }
 ```
+
+
+## SQL
+
+### `GROUP BY` errors
+
+See `GROUP BY` vs `DISTINCT` in the [SQL guideline](SQL.md#group-by-vs-distinct).

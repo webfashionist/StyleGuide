@@ -1,7 +1,7 @@
 # Fixes
 
-Some statements work in some browsers but don't in others, especially for older browsers or the beloved Internet Explorer. 
-
+Here's a list of errors which did occur due to either the browser, browser version or server environment. 
+Therefore these errors aren't really bugs, they are due to inconsistent (default) settings in the software used by either the client or the server.
 
 ## JavaScript
 

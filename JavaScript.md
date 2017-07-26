@@ -97,7 +97,7 @@ var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 
 * Never declare Number, String, or Boolean Objects
 
-```javascript```
+```javascript
 var x = "John";             
 var y = new String("John");
 (x === y) // is false because x is a string and y is an object.

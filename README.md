@@ -3,7 +3,20 @@
 This style guide includes conventions and guidelines for several languages. 
 The focus lays on merging several guidelines and to simplify them as far as possible.
 
+## Table of Content
 
+- CSS
+    - [Guideline](CSS/Guideline.md)
+- HTML
+    - [Guideline](HTML/Guideline.md)
+- JavaScript
+    - [Guideline](JavaScript/Guideline.md)
+    - [Fixes](JavaScript/Fixes.md)
+- PHP
+    - [Guideline](PHP/Guideline.md)
+- SQL
+    - [Guideline](SQL/Guideline.md)
+    - [Fixes](SQL/Fixes.md)
 
 
 

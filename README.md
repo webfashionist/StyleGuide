@@ -5,16 +5,23 @@ The focus lays on merging several guidelines and to simplify them as far as poss
 
 ## Table of Content
 
-- CSS
+- **CSS**
     - [Guideline](CSS/Guideline.md)
-- HTML
+- **HTML**
     - [Guideline](HTML/Guideline.md)
-- JavaScript
+- **JavaScript**
     - [Guideline](JavaScript/Guideline.md)
     - [Fixes](JavaScript/Fixes.md)
-- PHP
+    - **Frameworks**
+        - [jQuery](JavaScript/jQuery/README.md)
+            - [AJAX](JavaScript/jQuery/README.md#ajax)
+- **PHP**
     - [Guideline](PHP/Guideline.md)
-- SQL
+    - **Extensions**
+        - [PDO](PHP/PDO/README.md)
+            - [Set connection](PHP/PDO/README.md#set-connection)
+            - [Prepared statements](PHP/PDO/README.md#prepared-statements)
+- **SQL**
     - [Guideline](SQL/Guideline.md)
     - [Fixes](SQL/Fixes.md)
 

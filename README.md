@@ -17,6 +17,7 @@ The focus lays on merging several guidelines and to simplify them as far as poss
             - [AJAX](JavaScript/jQuery/README.md#ajax)
 - **PHP**
     - [Guideline](PHP/Guideline.md)
+    - [Passwords](PHP/Passwords/README.md)
     - **Extensions**
         - [PDO](PHP/PDO/README.md)
             - [Set connection](PHP/PDO/README.md#set-connection)

@@ -7,6 +7,7 @@ The focus lays on merging several guidelines and to simplify them as far as poss
 
 - **CSS**
     - [Guideline](CSS/Guideline.md)
+    - [Fixes](CSS/Fixes.md)
 - **HTML**
     - [Guideline](HTML/Guideline.md)
 - **JavaScript**

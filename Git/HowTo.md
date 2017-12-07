@@ -82,3 +82,9 @@ Normally, `git pull` inside the repository won't update the submodules inside it
 ```Shell
 $ git submodule update --init --recursive
 ```
+
+To update each submodule, you need to be in the root repository. The following command updates every submodule to the current state of the `master` branch:
+
+```Shell
+$ git submodule foreach git pull origin master
+```

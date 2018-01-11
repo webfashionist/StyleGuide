@@ -3,6 +3,10 @@
 This style guide includes conventions and guidelines for several languages. 
 The focus lays on merging several guidelines and to simplify them as far as possible.
 
+A few workarounds/fixes are included too, in case the browser or the programming language doesn't work as the intended.
+
+Feel free to suggest any updates by creating pull requests or issues. 
+
 ## Table of Content
 
 - **CSS**
@@ -33,20 +37,17 @@ The focus lays on merging several guidelines and to simplify them as far as poss
 
 ## License
 
+```
+Everyone is permitted to copy and distribute verbatim or modified 
+copies of the content of this repository. 
 
-        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-                    Version 2, December 2004 
+Any copy and distribution of this repository must include this license.
 
-    Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
-
-    Everyone is permitted to copy and distribute verbatim or modified 
-    copies of this license document, and changing it is allowed as long 
-    as the name is changed. 
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
-
-    0. You just DO WHAT THE FUCK YOU WANT TO.
+Feel free to use any code snippets used in the style guide for 
+your personal or commercial usage. By copying nothing but the code snippets, 
+including this license is not necessary.
 
 
-Feel free to suggest any updates by creating pull requests or issues. 
+If you want to redirect to this repository to thank the collaborators, feel free to do so.
+Repository URL: github.com/webfashionist/StyleGuide
+```

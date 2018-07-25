@@ -140,7 +140,7 @@ class SomeClass
 
 ## Comparison
 
-* Comparison with value and type `===` is recommended.
+* Comparison with value and type `===` is strongly recommended.
 
 ```php
 "1" === 1 // false

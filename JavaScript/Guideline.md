@@ -1,7 +1,6 @@
 # JavaScript Guideline
 
 
-
 ## Variables, constants and function names
 
 * Variable and function names must always be written in *camelCase*.
@@ -149,6 +148,13 @@ fullPrice = price * 100 / discount;
 1 === 1   // true
 ```
 
+## Strict mode
+
+The `"use strict";` directive was new in ECMAScript 5 and will be ignored by earlier versions of JavaScript.
+With the strict mode enabled, you can not, for example, use undeclared variables.
+
+The strict mode should be used wherever possible as it makes it easier to write "secure" JavaScript and previously accepted "bad syntax" turns into real errors.
+
 
 ## Security
 
@@ -159,5 +165,6 @@ fullPrice = price * 100 / discount;
 
 * [W3Schools (Conventions)](http://www.w3schools.com/js/js_conventions.asp)
 * [W3Schools (Best practices)](http://www.w3schools.com/js/js_best_practices.asp)
+- [W3Schools "use strict" Directive](https://www.w3schools.com/js/js_strict.asp)
 
 

@@ -9,6 +9,8 @@ Feel free to suggest any updates by creating pull requests or issues.
 
 ## Table of Content
 
+- **General**
+    - [Write clean code](General/CleanCode.md)
 - **CSS**
     - [Guideline](CSS/Guideline.md)
     - [Fixes](CSS/Fixes.md)

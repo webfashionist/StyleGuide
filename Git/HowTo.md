@@ -88,3 +88,17 @@ To update each submodule, you need to be in the root repository. The following c
 ```Shell
 $ git submodule foreach git pull origin master
 ```
+
+## Reverting commits
+
+Reverting commits is possible with the command: `git revert COMMIT_ID`.
+It creates a new commit with all of the reverted changes from the given commit.
+
+If the commit to be reverted is a merge commit, the above command will return an error. 
+Undoing merge commits required an additional argument in the command, like so: `git revert -m 1 COMMIT_ID`
+This will undo the merge conflict and go back to the previous commit in the same branch.
+
+Additional sources:
+
+- [Why does git revert complain about a missing -m option? - StackOverflow](https://stackoverflow.com/questions/5970889/why-does-git-revert-complain-about-a-missing-m-option)
+- [Commits und Änderungen rückgängig machen - Atlassian](https://de.atlassian.com/git/tutorials/undoing-changes)
